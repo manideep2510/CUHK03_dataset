@@ -1,3 +1,8 @@
+Usage and Dataset availability
+-------------------------------
+The data set can be downloaded from <a href="http://www.ee.cuhk.edu.hk/~xgwang/CUHK_identification.html">this site</a>
+The data in this repository is just the extracted images from the .mat file contained in the original dataset folder. This repository is created for my easy online access for the dataset.
+
 CUHK-03 Dataset Description
 ===========================
 This dataset is collected from The Chinese University of Hong Kong (CUHK) campus
