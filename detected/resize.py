@@ -8,7 +8,7 @@ from PIL import Image
 #from skimage import transform
 
 
-filenamesx = [imgx for imgx in glob.glob('val/*.jpg')]
+filenamesx = [imgx for imgx in glob.glob('train/*.jpg')]
 
 filenamesx.sort()
 
@@ -28,8 +28,8 @@ for imgx in filenamesx:
     imagesx_resized.append(locals()["imgx"+str(i+1)])"""
 
 
-for i in range(938):
+for i in range(7239):
 	imx = Image.fromarray(locals()["imgx"+str(i+1)])
 	# First create a folder named "train"
-	imx.save("val_resized/"+ filenamesx[i][4:])
+	imx.save("train_resized/"+ filenamesx[i][6:])
     
