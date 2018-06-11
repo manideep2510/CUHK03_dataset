@@ -31,5 +31,5 @@ for imgx in filenamesx:
 for i in range(7239):
 	imx = Image.fromarray(locals()["imgx"+str(i+1)])
 	# First create a folder named "train"
-	imx.save("train_resized/"+ str(1)+ filenamesx[i][4:])
+	imx.save("train_resized/"+ str(1)+ filenamesx[i][7:])
     
