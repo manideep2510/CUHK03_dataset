@@ -1,5 +1,5 @@
 ''' 
-This code has been adopted from <a href="https://github.com/sujitpal">Sujit Pal's code for holidays dataset.
+This code has been adopted from <a href="https://github.com/sujitpal">Sujit</a> Pal's code for holidays dataset.
 '''
 
 DATA_DIR = "detected"
