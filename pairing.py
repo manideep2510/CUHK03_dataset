@@ -1,3 +1,7 @@
+''' 
+This code has been adopted from <a href="https://github.com/sujitpal">Sujit Pal's code for holidays dataset.
+'''
+
 DATA_DIR = "detected"
 IMAGE_DIR = os.path.join(DATA_DIR, "train_resized")
 
